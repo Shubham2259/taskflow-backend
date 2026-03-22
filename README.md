@@ -66,26 +66,6 @@ Tables:
 ```bash
 git clone https://github.com/Shubham2259/taskflow-backend.git
 
-2. Open the project in IntelliJ IDEA
-3. Configure database in application.properties:
-    spring.datasource.url=jdbc:postgresql://localhost:5432/taskflow_db
-    spring.datasource.username=your_username
-    spring.datasource.password=your_password
-4. Make sure PostgreSQL is running and database taskflow_db is created
-5. Run the application:
-    mvn spring-boot:run
-6. Open Swagger UI in browser:
-    http://localhost:8080/swagger-ui/index.html
-📌 Future Improvements
-Add pagination and sorting
-Implement search functionality
-Add authentication (Spring Security + JWT)
-👨‍💻 Author
-
-=======
-
-```bash
-git clone https://github.com/Shubham2259/taskflow-backend.git
 ```
 2. Open the project in IntelliJ IDEA
 3. Configure database in application.properties:
