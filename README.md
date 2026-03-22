@@ -52,9 +52,10 @@ TaskFlow is a backend application built using Spring Boot that provides RESTful 
 ## 🗄️ Database
 - PostgreSQL
 - UUID used as primary keys
-- Tables:
-    - task_lists
-    - tasks
+
+Tables:
+- task_lists
+- tasks
 
 ---
 
@@ -62,38 +63,22 @@ TaskFlow is a backend application built using Spring Boot that provides RESTful 
 
 1. Clone the repository:
 ```bash
-git clone your-repo-link
+git clone https://github.com/Shubham2259/taskflow-backend.git
 
----
+2. Open the project in IntelliJ IDEA
+3. Configure database in application.properties:
+    spring.datasource.url=jdbc:postgresql://localhost:5432/taskflow_db
+    spring.datasource.username=your_username
+    spring.datasource.password=your_password
+4. Make sure PostgreSQL is running and database taskflow_db is created
+5. Run the application:
+    mvn spring-boot:run
+6. Open Swagger UI in browser:
+    http://localhost:8080/swagger-ui/index.html
+📌 Future Improvements
+Add pagination and sorting
+Implement search functionality
+Add authentication (Spring Security + JWT)
+👨‍💻 Author
 
-## 🧠 Why this README is strong
-
-It includes:
-
-| Section | Why needed |
-|--------|----------|
-| Overview | Explains project purpose |
-| Features | Shows your skills |
-| Tech stack | Shows technologies used |
-| APIs | Shows backend capability |
-| Database | Shows DB knowledge |
-| Run steps | Shows usability |
-
----
-
-# ✅ Step 32: Push to GitHub
-
-Now we upload project to GitHub.
-
----
-
-# 🔷 Step-by-step Git commands (with explanation)
-
-Open terminal in IntelliJ or CMD.
-
----
-
-## 🟢 Step 1: Initialize Git
-
-```bash
-git init
+Shubham Kumar
